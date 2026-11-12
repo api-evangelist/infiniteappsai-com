@@ -1,4 +1,4 @@
-# infiniteappsai-com
+# InfiniteApps
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-infiniteappsai-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://infiniteappsai.com/
+InfiniteApps provides a no‑code platform that generates complete web and mobile applications using Next.js, React Native, and Flutter. Their Forge service automates integration with Supabase, Stripe, Vercel and governance, enabling organizations to launch production‑ready SaaS stacks in days without paying platform taxes. The company emphasizes rapid development, built‑in analytics, and audit‑ready trails, targeting developers and businesses seeking fast, scalable app generation.
+
+**Areas:** SaaS Platform · Multi‑tenant · Billing
+
+## InfiniteApps on APIs.io
+
+Everything profiled for InfiniteApps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/infiniteappsai-com/](https://apis.io/providers/infiniteappsai-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Forge API](https://apis.io/apis/infiniteappsai-com/forge-api-2/) — API reference for InfiniteApps Forge platform, generated from OpenAPI spec but not publicly available as a machine‑readable file.
+- [InfiniteApps core API](https://apis.io/apis/infiniteappsai-com/core-api/) — InfiniteApps core API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the provider's own…
+- [InfiniteApps forge API](https://apis.io/apis/infiniteappsai-com/forge-api/) — InfiniteApps forge API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the provider's…
+- [InfiniteApps getting started API](https://apis.io/apis/infiniteappsai-com/getting-started-api/) — InfiniteApps getting started API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [GetAppsAppidConfigResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-apps-appid-config-response/)
+- [GetAppsAppidProductsResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-apps-appid-products-response/)
+- [GetAppsAppidStoreResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-apps-appid-store-response/)
+- [GetHealthReadyResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-health-ready-response/)
+- [GetHealthResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-health-response/)
+- [GetOrgsOrgidAppsResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-get-orgs-orgid-apps-response/)
+- [PostApiBillingWebhookResponse](https://apis.io/schemas/infiniteappsai-com/infiniteappsai-com-post-api-billing-webhook-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Infiniteappsai Com Context](https://apis.io/jsonld/infiniteappsai-com/infiniteappsai-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [InfiniteApps API Rules](https://apis.io/rules/infiniteappsai-com/infiniteappsai-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [InfiniteApps Authentication](https://apis.io/security/infiniteappsai-com/infiniteappsai-com-authentication/)
+- [InfiniteApps Domain Security](https://apis.io/security/infiniteappsai-com/infiniteappsai-com-domain-security/)
+- [InfiniteApps Trust Center](https://apis.io/security/infiniteappsai-com/infiniteappsai-com-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://infiniteappsai.com/)
+- [Documentation](https://apidocs.infiniteappsai.com/)
+- [Getting started](https://www.infiniteappsai.com/docs/getting-started/platform-overview)
+- [API reference](https://www.infiniteappsai.com/docs/forge-api/reference)
+- [Sign up](https://dashboard.infiniteappsai.com/auth/signup?from=landing&trial=7-day)
+- [Changelog](https://www.infiniteappsai.com/docs/operations-compliance/changelog)
+- [Compliance](https://trust.infiniteappsai.com/)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 50.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 28.9 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 21.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/infiniteappsai-com/](https://apis.io/providers/infiniteappsai-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InfiniteApps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/infiniteappsai-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
